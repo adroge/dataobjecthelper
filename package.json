@@ -1,0 +1,28 @@
+{
+    "name": "dataobjecthelper",
+    "version": "1.0.0",
+    "description": "Helper functions for data objects that facilitate generation and retrievable of complex data.",
+    "main": "index.js",
+    "scripts": {
+        "test": "nyc mocha"
+    },
+    "keywords": [
+        "object",
+        "data",
+        "utility",
+        "helper",
+        "search",
+        "property",
+        "has",
+        "entity"
+    ],
+    "author": "Adam Gensler",
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^6.4.0",
+        "mocha": "^6.2.0",
+        "nyc": "^14.1.1"
+    }
+}
