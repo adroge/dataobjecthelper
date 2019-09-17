@@ -2,13 +2,20 @@
     "name": "dataobjecthelper",
     "version": "1.0.0",
     "description": "Helper functions for data objects that facilitate generation and retrievable of complex data.",
+    "author": "Adam Gensler",
+    "license": "ISC",
     "main": "index.js",
     "repository": {
-        "type" : "git",
-        "url" : "https://github.com/adroge/dataobjecthelper.git"
+        "type": "git",
+        "url": "https://github.com/adroge/dataobjecthelper.git"
     },
+    "url": "https://github.com/adroge/dataobjecthelper/issues",
     "scripts": {
         "test": "nyc mocha"
+    },
+    "engines": {
+        "node": ">=6.0.0",
+        "npm": ">=4.0.0"
     },
     "keywords": [
         "object",
@@ -20,13 +27,11 @@
         "has",
         "entity"
     ],
-    "author": "Adam Gensler",
-    "license": "ISC",
-    "devDependencies": {},
-    "dependencies": {
+    "devDependencies": {
         "chai": "^4.2.0",
         "eslint": "^6.4.0",
         "mocha": "^6.2.0",
         "nyc": "^14.1.1"
-    }
+    },
+    "dependencies": {}
 }
