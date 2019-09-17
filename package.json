@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "description": "Helper functions for data objects that facilitate generation and retrievable of complex data.",
     "main": "index.js",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/adroge/dataobjecthelper.git"
+    },
     "scripts": {
         "test": "nyc mocha"
     },
