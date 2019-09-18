@@ -3,6 +3,26 @@ const doh = require('../index')
 
 describe('main tests', () => {
 
+	it('tests empty object', () => {
+		let obj = {}
+		expect(doh.has(obj, 'a')).to.be.false
+	})
+
+	it('tests undefined object', () => {
+		let obj = undefined
+		expect(doh.has(obj, 'a')).to.be.false
+	})
+
+	it('tests empty path', () => {
+		let obj = {a:'string'}
+		expect(doh.has(obj, '')).to.be.true
+	})
+
+	it('tests undefined path', () => {
+		let obj = {a:'string'}
+		expect(doh.has(obj, undefined)).to.be.true
+	})
+
 	it('tests that an existing property is identified', () => {
 		let obj = { 'a': { b: {} } }
 		expect(doh.has(obj, 'a')).to.be.true
